@@ -1,0 +1,61 @@
+import java.util.Properties
+
+plugins {
+    id "com.android.application"
+    id "org.jetbrains.kotlin.android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id 'com.google.gms.google-services'
+}
+
+/* ───── Local‑properties helper (unchanged) ───── */
+def localProps      = new Properties()
+def localPropsFile  = rootProject.file('local.properties')
+if (localPropsFile.exists()) {
+    localPropsFile.withReader('UTF-8') { localProps.load(it) }
+}
+
+def flutterVersionCode = (localProps['flutter.versionCode'] ?: '1') as int
+def flutterVersionName =  localProps['flutter.versionName'] ?: '1.0'
+
+/* ───── Android config ───── */
+android {
+    namespace   "com.example.covid_tracker"   // REQUIRED by AGP 8+
+
+    compileSdk  35
+
+    defaultConfig {
+        applicationId "com.example.covid_tracker"
+        minSdk       23
+        targetSdk    35
+        versionCode  flutterVersionCode
+        versionName  flutterVersionName
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions { jvmTarget = '17' }
+
+    sourceSets { main.java.srcDirs += 'src/main/kotlin' }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug   // TODO: real keystore
+            minifyEnabled false
+            shrinkResources false                // match the setting
+
+
+        }
+    }
+}
+
+/* ───── Flutter source pointer ───── */
+flutter { source '../..' }
+
+/* ───── Dependencies ───── */
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation platform('com.google.firebase:firebase-bom:33.16.0')
+    implementation 'com.google.firebase:firebase-analytics'
+}
