@@ -1,0 +1,1 @@
+ D:\\flutterdev\\projects\\covid\ 19\ tracker\\.dart_tool\\flutter_build\\49fbc347de04476b22e2e1c743d3b859\\native_assets.json: 

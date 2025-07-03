@@ -1,0 +1,2 @@
+D:/flutterdev/projects/covid 19 tracker/android/app/.cxx/Debug/2p355j25/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/flutterdev/projects/covid 19 tracker/android/app/.cxx/Debug/2p355j25/armeabi-v7a/CMakeFiles/rebuild_cache.dir

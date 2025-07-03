@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">466354460333</string>
+    <string name="google_api_key" translatable="false">AIzaSyBMs3MvoV-JHR92iqsXGiIXjwphtTKL6dk</string>
+    <string name="google_app_id" translatable="false">1:466354460333:android:977fe277e084e344ef5824</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBMs3MvoV-JHR92iqsXGiIXjwphtTKL6dk</string>
+    <string name="google_storage_bucket" translatable="false">covid-19-tracker-app-dcdb9.firebasestorage.app</string>
+    <string name="project_id" translatable="false">covid-19-tracker-app-dcdb9</string>
+</resources>
