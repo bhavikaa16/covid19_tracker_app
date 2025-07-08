@@ -20,4 +20,12 @@ class StatesServices{
 
   }
 
+  Future<List<States>> fetchStates() async {
+    final model = await fetchrecords();
+    return model.states ?? <States>[];     // never return null
+  }
 }
+
+
+
+
