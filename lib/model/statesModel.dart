@@ -4,8 +4,8 @@
 
 class StatesModel {
   StatesModel({
-      num? updated, 
-      Total? total, 
+     int? updated,
+      Total? total,
       List<States>? states,}){
     _updated = updated;
     _total = total;
@@ -22,17 +22,19 @@ class StatesModel {
       });
     }
   }
-  num? _updated;
+ int? _updated;
   Total? _total;
   List<States>? _states;
-StatesModel copyWith({  num? updated,
+StatesModel copyWith({  int
+? updated,
   Total? total,
   List<States>? states,
 }) => StatesModel(  updated: updated ?? _updated,
   total: total ?? _total,
   states: states ?? _states,
 );
-  num? get updated => _updated;
+  int
+  ? get updated => _updated;
   Total? get total => _total;
   List<States>? get states => _states;
 
@@ -62,15 +64,23 @@ StatesModel copyWith({  num? updated,
 
 class States {
   States({
-      String? state, 
-      num? active, 
-      num? recovered, 
-      num? deaths, 
-      num? cases, 
-      num? todayActive, 
-      num? todayRecovered, 
-      num? todayDeaths, 
-      num? todayCases,}){
+      String? state,
+      int
+      ? active,
+      int
+      ? recovered,
+      int
+      ? deaths,
+      int
+      ? cases,
+      int
+      ? todayActive,
+      int
+      ? todayRecovered,
+      int
+      ? todayDeaths,
+      int
+      ? todayCases,}){
     _state = state;
     _active = active;
     _recovered = recovered;
@@ -94,23 +104,39 @@ class States {
     _todayCases = json['todayCases'];
   }
   String? _state;
-  num? _active;
-  num? _recovered;
-  num? _deaths;
-  num? _cases;
-  num? _todayActive;
-  num? _todayRecovered;
-  num? _todayDeaths;
-  num? _todayCases;
+  int
+  ? _active;
+  int
+  ? _recovered;
+  int
+  ? _deaths;
+  int
+  ? _cases;
+  int
+  ? _todayActive;
+  int
+  ? _todayRecovered;
+  int
+  ? _todayDeaths;
+  int
+  ? _todayCases;
 States copyWith({  String? state,
-  num? active,
-  num? recovered,
-  num? deaths,
-  num? cases,
-  num? todayActive,
-  num? todayRecovered,
-  num? todayDeaths,
-  num? todayCases,
+  int
+  ? active,
+  int
+  ? recovered,
+  int
+  ? deaths,
+  int
+  ? cases,
+  int
+  ? todayActive,
+  int
+  ? todayRecovered,
+  int
+  ? todayDeaths,
+  int
+  ? todayCases,
 }) => States(  state: state ?? _state,
   active: active ?? _active,
   recovered: recovered ?? _recovered,
@@ -122,14 +148,22 @@ States copyWith({  String? state,
   todayCases: todayCases ?? _todayCases,
 );
   String? get state => _state;
-  num? get active => _active;
-  num? get recovered => _recovered;
-  num? get deaths => _deaths;
-  num? get cases => _cases;
-  num? get todayActive => _todayActive;
-  num? get todayRecovered => _todayRecovered;
-  num? get todayDeaths => _todayDeaths;
-  num? get todayCases => _todayCases;
+  int
+  ? get active => _active;
+  int
+  ? get recovered => _recovered;
+  int
+  ? get deaths => _deaths;
+  int
+  ? get cases => _cases;
+  int
+  ? get todayActive => _todayActive;
+  int
+  ? get todayRecovered => _todayRecovered;
+  int
+  ? get todayDeaths => _todayDeaths;
+  int
+  ? get todayCases => _todayCases;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
@@ -158,14 +192,22 @@ States copyWith({  String? state,
 
 class Total {
   Total({
-      num? active, 
-      num? recovered, 
-      num? deaths, 
-      num? cases, 
-      num? todayActive, 
-      num? todayRecovered, 
-      num? todayDeaths, 
-      num? todayCases,}){
+      int
+      ? active,
+      int
+      ? recovered,
+      int
+      ? deaths,
+      int
+      ? cases,
+      int
+      ? todayActive,
+      int
+      ? todayRecovered,
+      int
+      ? todayDeaths,
+      int
+      ? todayCases,}){
     _active = active;
     _recovered = recovered;
     _deaths = deaths;
@@ -186,22 +228,38 @@ class Total {
     _todayDeaths = json['todayDeaths'];
     _todayCases = json['todayCases'];
   }
-  num? _active;
-  num? _recovered;
-  num? _deaths;
-  num? _cases;
-  num? _todayActive;
-  num? _todayRecovered;
-  num? _todayDeaths;
-  num? _todayCases;
-Total copyWith({  num? active,
-  num? recovered,
-  num? deaths,
-  num? cases,
-  num? todayActive,
-  num? todayRecovered,
-  num? todayDeaths,
-  num? todayCases,
+  int
+  ? _active;
+  int
+  ? _recovered;
+  int
+  ? _deaths;
+  int
+  ? _cases;
+  int
+  ? _todayActive;
+  int
+  ? _todayRecovered;
+  int
+  ? _todayDeaths;
+  int
+  ? _todayCases;
+Total copyWith({  int
+? active,
+  int
+  ? recovered,
+  int
+  ? deaths,
+  int
+  ? cases,
+  int
+  ? todayActive,
+  int
+  ? todayRecovered,
+  int
+  ? todayDeaths,
+  int
+  ? todayCases,
 }) => Total(  active: active ?? _active,
   recovered: recovered ?? _recovered,
   deaths: deaths ?? _deaths,
@@ -211,14 +269,22 @@ Total copyWith({  num? active,
   todayDeaths: todayDeaths ?? _todayDeaths,
   todayCases: todayCases ?? _todayCases,
 );
-  num? get active => _active;
-  num? get recovered => _recovered;
-  num? get deaths => _deaths;
-  num? get cases => _cases;
-  num? get todayActive => _todayActive;
-  num? get todayRecovered => _todayRecovered;
-  num? get todayDeaths => _todayDeaths;
-  num? get todayCases => _todayCases;
+  int
+  ? get active => _active;
+  int
+  ? get recovered => _recovered;
+  int
+  ? get deaths => _deaths;
+  int
+  ? get cases => _cases;
+  int
+  ? get todayActive => _todayActive;
+  int
+  ? get todayRecovered => _todayRecovered;
+  int
+  ? get todayDeaths => _todayDeaths;
+  int
+  ? get todayCases => _todayCases;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};

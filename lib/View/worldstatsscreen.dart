@@ -1,3 +1,4 @@
+import 'package:covid_tracker/View/stateslist.dart';
 import 'package:covid_tracker/model/statesModel.dart';
 import 'package:covid_tracker/services/stats_services.dart';
 import 'package:flutter/cupertino.dart';
@@ -85,15 +86,32 @@ class _WorldStatsScreenState extends State<WorldStatsScreen>with TickerProviderS
                       ),
                     ),
                   ),
-                  Container(
-                    height: 50,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: const Color(0xff1aa260),),
-                    child: const  Center(child: Text('Track States')),
-                  
-                  )
-                                ],),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (_) => const StatesListScreen()),
+                        );
+                      },
+                      child: Container(
+                        height: 50,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: const Color(0xff1aa260),
+                        ),
+                        child: const Center(
+                          child: Text(
+                            'Track States',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+
+                  ],),
                 );
 
               }
