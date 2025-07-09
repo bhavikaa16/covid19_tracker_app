@@ -1,16 +1,23 @@
-# covid_tracker
+A Flutter-based mobile application that tracks COVID-19 cases across India, provides state-wise statistics, shows nearby hospitals, and supports user authentication via Firebase.
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 📊 **Real-time COVID-19 Data**
+  - Total confirmed, active, recovered, and death cases in India
+  - State-wise statistics with daily updates
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 **Firebase Authentication**
+  - Sign up / Login with email and password
+  - Secure user sessions
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app allows users to notify their emergency or personal contacts via SMS in case they test COVID-positive.
+
+### ⚙️ How It Works:
+- User selects contacts (manually or from device)
+- App sends a custom SMS alert to selected numbers
+
+- 📱 **Clean UI**
+  - Responsive design optimized for Android devices
