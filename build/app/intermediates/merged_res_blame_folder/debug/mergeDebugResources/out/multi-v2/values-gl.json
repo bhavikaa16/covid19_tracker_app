@@ -4,6 +4,23 @@
             "outputFile": "com.example.covid_tracker.app-mergeDebugResources-35:/values-gl/values-gl.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\f03b1fed4afb7200ac1a427c43de02d2\\transformed\\browser-1.8.0\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,162,264,376",
+                        "endColumns": "106,101,111,105",
+                        "endOffsets": "157,259,371,477"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3301,3408,3510,3622",
+                        "endColumns": "106,101,111,105",
+                        "endOffsets": "3403,3505,3617,3723"
+                    }
+                },
+                {
                     "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\03571c3e2a8e581847b1ec48ec7d400b\\transformed\\jetified-play-services-base-18.5.0\\res\\values-gl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -62,23 +79,6 @@
                         "startOffsets": "292,391,493,593,691,798,904,3728",
                         "endColumns": "98,101,99,97,106,105,115,100",
                         "endOffsets": "386,488,588,686,793,899,1015,3824"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\b627c5293fe89fcc16dd314ceb35987a\\transformed\\browser-1.4.0\\res\\values-gl\\values-gl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,162,264,376",
-                        "endColumns": "106,101,111,105",
-                        "endOffsets": "157,259,371,477"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3301,3408,3510,3622",
-                        "endColumns": "106,101,111,105",
-                        "endOffsets": "3403,3505,3617,3723"
                     }
                 }
             ]

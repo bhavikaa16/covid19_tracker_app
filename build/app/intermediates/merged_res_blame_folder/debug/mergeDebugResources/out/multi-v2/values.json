@@ -57,23 +57,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\b627c5293fe89fcc16dd314ceb35987a\\transformed\\browser-1.4.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,113,179,242,304,375,447,515,582,661",
-                        "endColumns": "57,65,62,61,70,71,67,66,78,68",
-                        "endOffsets": "108,174,237,299,370,442,510,577,656,725"
-                    },
-                    "to": {
-                        "startLines": "57,58,59,60,73,74,189,190,191,192",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1933,1991,2057,2120,3116,3187,11503,11571,11638,11717",
-                        "endColumns": "57,65,62,61,70,71,67,66,78,68",
-                        "endOffsets": "1986,2052,2115,2177,3182,3254,11566,11633,11712,11781"
-                    }
-                },
-                {
                     "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\52c7307dc9b4154cf0c347267a720406\\transformed\\jetified-savedstate-1.2.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -88,6 +71,23 @@
                         "startOffsets": "8104",
                         "endColumns": "53",
                         "endOffsets": "8153"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\f03b1fed4afb7200ac1a427c43de02d2\\transformed\\browser-1.8.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,179,242,304,375,447,515,582,661",
+                        "endColumns": "57,65,62,61,70,71,67,66,78,68",
+                        "endOffsets": "108,174,237,299,370,442,510,577,656,725"
+                    },
+                    "to": {
+                        "startLines": "57,58,59,60,73,74,189,190,191,192",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1933,1991,2057,2120,3116,3187,11503,11571,11638,11717",
+                        "endColumns": "57,65,62,61,70,71,67,66,78,68",
+                        "endOffsets": "1986,2052,2115,2177,3182,3254,11566,11633,11712,11781"
                     }
                 },
                 {

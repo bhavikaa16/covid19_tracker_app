@@ -4,6 +4,23 @@
             "outputFile": "com.example.covid_tracker.app-mergeDebugResources-35:/values-lo/values-lo.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\f03b1fed4afb7200ac1a427c43de02d2\\transformed\\browser-1.8.0\\res\\values-lo\\values-lo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,153,251,366",
+                        "endColumns": "97,97,114,99",
+                        "endOffsets": "148,246,361,461"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3243,3341,3439,3554",
+                        "endColumns": "97,97,114,99",
+                        "endOffsets": "3336,3434,3549,3649"
+                    }
+                },
+                {
                     "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\3b618e8e4e4b86114ef34883bc0a690b\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3",
@@ -45,23 +62,6 @@
                         "startOffsets": "2005",
                         "endColumns": "131",
                         "endOffsets": "2132"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\b627c5293fe89fcc16dd314ceb35987a\\transformed\\browser-1.4.0\\res\\values-lo\\values-lo.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,153,251,366",
-                        "endColumns": "97,97,114,99",
-                        "endOffsets": "148,246,361,461"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3243,3341,3439,3554",
-                        "endColumns": "97,97,114,99",
-                        "endOffsets": "3336,3434,3549,3649"
                     }
                 },
                 {

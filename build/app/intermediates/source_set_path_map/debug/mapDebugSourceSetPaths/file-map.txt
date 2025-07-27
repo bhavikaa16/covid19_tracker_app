@@ -22,10 +22,10 @@ com.example.covid_tracker.app-jetified-activity-1.8.1-20 C:\Users\bhavi\.gradle\
 com.example.covid_tracker.app-jetified-ads-adservices-1.1.0-beta11-21 C:\Users\bhavi\.gradle\caches\transforms-4\a2110bb11ae532dd6def95b3ae613de4\transformed\jetified-ads-adservices-1.1.0-beta11\res
 com.example.covid_tracker.app-jetified-ads-adservices-java-1.1.0-beta11-22 C:\Users\bhavi\.gradle\caches\transforms-4\a6100a1d00098712398e9fdd4a84d04b\transformed\jetified-ads-adservices-java-1.1.0-beta11\res
 com.example.covid_tracker.app-jetified-startup-runtime-1.1.1-23 C:\Users\bhavi\.gradle\caches\transforms-4\a6e79687fe23d0dd3e3dca0e27087d13\transformed\jetified-startup-runtime-1.1.1\res
-com.example.covid_tracker.app-browser-1.4.0-24 C:\Users\bhavi\.gradle\caches\transforms-4\b627c5293fe89fcc16dd314ceb35987a\transformed\browser-1.4.0\res
-com.example.covid_tracker.app-jetified-core-common-2.0.3-25 C:\Users\bhavi\.gradle\caches\transforms-4\bdcc408a337c1b337083c482bac09f15\transformed\jetified-core-common-2.0.3\res
-com.example.covid_tracker.app-lifecycle-livedata-core-2.7.0-26 C:\Users\bhavi\.gradle\caches\transforms-4\d63ebdb9aa2f6370f477c1ac7ddcf6ce\transformed\lifecycle-livedata-core-2.7.0\res
-com.example.covid_tracker.app-fragment-1.7.1-27 C:\Users\bhavi\.gradle\caches\transforms-4\e54afd007f0d6ae018f7a9621177b303\transformed\fragment-1.7.1\res
+com.example.covid_tracker.app-jetified-core-common-2.0.3-24 C:\Users\bhavi\.gradle\caches\transforms-4\bdcc408a337c1b337083c482bac09f15\transformed\jetified-core-common-2.0.3\res
+com.example.covid_tracker.app-lifecycle-livedata-core-2.7.0-25 C:\Users\bhavi\.gradle\caches\transforms-4\d63ebdb9aa2f6370f477c1ac7ddcf6ce\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.covid_tracker.app-fragment-1.7.1-26 C:\Users\bhavi\.gradle\caches\transforms-4\e54afd007f0d6ae018f7a9621177b303\transformed\fragment-1.7.1\res
+com.example.covid_tracker.app-browser-1.8.0-27 C:\Users\bhavi\.gradle\caches\transforms-4\f03b1fed4afb7200ac1a427c43de02d2\transformed\browser-1.8.0\res
 com.example.covid_tracker.app-jetified-play-services-auth-20.7.0-28 C:\Users\bhavi\.gradle\caches\transforms-4\f884bb4d2899f819ed8fd7f71a30781b\transformed\jetified-play-services-auth-20.7.0\res
 com.example.covid_tracker.app-lifecycle-livedata-2.7.0-29 C:\Users\bhavi\.gradle\caches\transforms-4\f9703c7b6bde091fbce11ed25f0f96b5\transformed\lifecycle-livedata-2.7.0\res
 com.example.covid_tracker.app-debug-30 D:\flutterdev\projects\covid 19 tracker\android\app\src\debug\res
@@ -38,4 +38,7 @@ com.example.covid_tracker.app-packageDebugResources-36 D:\flutterdev\projects\co
 com.example.covid_tracker.app-debug-37 D:\flutterdev\projects\covid 19 tracker\build\app\intermediates\merged_res\debug\mergeDebugResources
 com.example.covid_tracker.app-debug-38 D:\flutterdev\projects\covid 19 tracker\build\firebase_auth\intermediates\packaged_res\debug\packageDebugResources
 com.example.covid_tracker.app-debug-39 D:\flutterdev\projects\covid 19 tracker\build\firebase_core\intermediates\packaged_res\debug\packageDebugResources
-com.example.covid_tracker.app-debug-40 D:\flutterdev\projects\covid 19 tracker\build\fluttertoast\intermediates\packaged_res\debug\packageDebugResources
+com.example.covid_tracker.app-debug-40 D:\flutterdev\projects\covid 19 tracker\build\flutter_contacts\intermediates\packaged_res\debug\packageDebugResources
+com.example.covid_tracker.app-debug-41 D:\flutterdev\projects\covid 19 tracker\build\fluttertoast\intermediates\packaged_res\debug\packageDebugResources
+com.example.covid_tracker.app-debug-42 D:\flutterdev\projects\covid 19 tracker\build\permission_handler_android\intermediates\packaged_res\debug\packageDebugResources
+com.example.covid_tracker.app-debug-43 D:\flutterdev\projects\covid 19 tracker\build\url_launcher_android\intermediates\packaged_res\debug\packageDebugResources

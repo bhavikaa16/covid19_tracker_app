@@ -4,23 +4,6 @@
             "outputFile": "com.example.covid_tracker.app-mergeDebugResources-35:/values-te/values-te.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\b627c5293fe89fcc16dd314ceb35987a\\transformed\\browser-1.4.0\\res\\values-te\\values-te.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,166,272,383",
-                        "endColumns": "110,105,110,106",
-                        "endOffsets": "161,267,378,485"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3227,3338,3444,3555",
-                        "endColumns": "110,105,110,106",
-                        "endOffsets": "3333,3439,3550,3657"
-                    }
-                },
-                {
                     "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\3b618e8e4e4b86114ef34883bc0a690b\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2,3",
@@ -48,6 +31,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\f03b1fed4afb7200ac1a427c43de02d2\\transformed\\browser-1.8.0\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,166,274,385",
+                        "endColumns": "110,107,110,106",
+                        "endOffsets": "161,269,380,487"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3227,3338,3446,3557",
+                        "endColumns": "110,107,110,106",
+                        "endOffsets": "3333,3441,3552,3659"
+                    }
+                },
+                {
                     "source": "C:\\Users\\bhavi\\.gradle\\caches\\transforms-4\\1cefc6121a214d8147cbe8029e874855\\transformed\\core-1.13.1\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -59,9 +59,9 @@
                     "to": {
                         "startLines": "4,5,6,7,8,9,10,33",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "283,385,493,595,696,802,909,3662",
+                        "startOffsets": "283,385,493,595,696,802,909,3664",
                         "endColumns": "101,107,101,100,105,106,123,100",
-                        "endOffsets": "380,488,590,691,797,904,1028,3758"
+                        "endOffsets": "380,488,590,691,797,904,1028,3760"
                     }
                 },
                 {
