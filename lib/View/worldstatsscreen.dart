@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:pie_chart/pie_chart.dart';
 
+import 'infocontacts.dart';
+
 class WorldStatsScreen extends StatefulWidget {
   const WorldStatsScreen({Key? key}): super(key:key);
 
@@ -105,6 +107,34 @@ class _WorldStatsScreenState extends State<WorldStatsScreen>with TickerProviderS
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) =>  NotifyContactsScreen()),
+                          );
+                        },
+                        child: Container(
+                          height: 50,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            color: const Color(0xff1aa260),
+                          ),
+                          child: const Center(
+                            child: Text(
+                              'Notify Contacts',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
                         ),
