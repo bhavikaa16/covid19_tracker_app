@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -47,7 +48,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: '***REMOVED***',
+    apiKey: 'key-is-loaded-from-env-file',
     appId: '1:466354460333:web:18aea04903e868c7ef5824',
     messagingSenderId: '466354460333',
     projectId: 'covid-19-tracker-app-dcdb9',
@@ -57,7 +58,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: '***REMOVED***',
+    apiKey: 'key-is-loaded-from-env-file',
     appId: '1:466354460333:android:977fe277e084e344ef5824',
     messagingSenderId: '466354460333',
     projectId: 'covid-19-tracker-app-dcdb9',
@@ -65,7 +66,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: '***REMOVED***',
+    apiKey: 'key-is-loaded-from-env-file',
     appId: '1:466354460333:ios:293e4f411b04f52def5824',
     messagingSenderId: '466354460333',
     projectId: 'covid-19-tracker-app-dcdb9',
